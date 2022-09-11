@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorText /> should match snapshot 1`] = `
+<DocumentFragment>
+  <p
+    class="error-0-2-1"
+  >
+    <span>
+      error text
+    </span>
+  </p>
+</DocumentFragment>
+`;

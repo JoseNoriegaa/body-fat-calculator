@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextInput /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container-0-2-1"
+  >
+    <span>
+      label
+    </span>
+    <input
+      class="input-0-2-2"
+      id="input_form_field"
+      name="form_field"
+      placeholder="placeholder"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

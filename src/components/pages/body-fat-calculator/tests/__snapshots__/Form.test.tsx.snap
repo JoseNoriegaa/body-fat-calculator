@@ -1,0 +1,824 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> should match snapshot - female - error state 1`] = `
+<DocumentFragment>
+  <h1
+    class="title-0-2-1"
+  >
+    Calculadora de Grasa Corporal
+  </h1>
+  <p
+    class="description-0-2-2"
+  >
+    El método de la Marian de Estados Unidos (US Navy Method) ofrece una manera sencilla de calcular un aproximado del porcentaje de tejido adiposo en el cuerpo de una persona.
+  </p>
+  <p
+    class="description-0-2-2"
+  >
+    Los valores requeridos por la fórmula son los siguientes:
+  </p>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <label
+      class="label-0-2-11"
+    >
+      Género
+    </label>
+    <div
+      class="groupRadio-0-2-4"
+    >
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_man"
+          name="isMale"
+          type="radio"
+          value="true"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_man"
+        >
+          Hombre
+        </label>
+      </div>
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_woman"
+          name="isMale"
+          type="radio"
+          value="false"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_woman"
+        >
+          Mujer
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_height"
+      >
+        Altura (cm)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_height"
+        name="height"
+        placeholder="Ingresa tu altura"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_weight"
+      >
+        Peso (kg)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_weight"
+        name="weight"
+        placeholder="Ingresa tu peso"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_waist"
+      >
+        Cintura (cm)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_waist"
+        name="waist"
+        placeholder="Ingresa la medida de tu cintura"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_hip"
+      >
+        Cadera (cm)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_hip"
+        name="hip"
+        placeholder="Ingresa la medida de tu cadera"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_neck"
+      >
+        Cuello (cm)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_neck"
+        name="neck"
+        placeholder="Ingresa la medida de tu cuello"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="actionsContainer-0-2-7"
+  >
+    <button
+      class="reset-button btn-0-2-8 btnSubmit-0-2-9"
+      type="button"
+    >
+      Calcular
+    </button>
+    <button
+      class="reset-button btn-0-2-8 btnClear-0-2-10"
+      type="button"
+    >
+      Limpiar
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Form /> should match snapshot - female 1`] = `
+<DocumentFragment>
+  <h1
+    class="title-0-2-1"
+  >
+    Calculadora de Grasa Corporal
+  </h1>
+  <p
+    class="description-0-2-2"
+  >
+    El método de la Marian de Estados Unidos (US Navy Method) ofrece una manera sencilla de calcular un aproximado del porcentaje de tejido adiposo en el cuerpo de una persona.
+  </p>
+  <p
+    class="description-0-2-2"
+  >
+    Los valores requeridos por la fórmula son los siguientes:
+  </p>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <label
+      class="label-0-2-11"
+    >
+      Género
+    </label>
+    <div
+      class="groupRadio-0-2-4"
+    >
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_man"
+          name="isMale"
+          type="radio"
+          value="true"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_man"
+        >
+          Hombre
+        </label>
+      </div>
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_woman"
+          name="isMale"
+          type="radio"
+          value="false"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_woman"
+        >
+          Mujer
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_height"
+      >
+        Altura (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_height"
+        name="height"
+        placeholder="Ingresa tu altura"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_weight"
+      >
+        Peso (kg)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_weight"
+        name="weight"
+        placeholder="Ingresa tu peso"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_waist"
+      >
+        Cintura (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_waist"
+        name="waist"
+        placeholder="Ingresa la medida de tu cintura"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_hip"
+      >
+        Cadera (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_hip"
+        name="hip"
+        placeholder="Ingresa la medida de tu cadera"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_neck"
+      >
+        Cuello (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_neck"
+        name="neck"
+        placeholder="Ingresa la medida de tu cuello"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="actionsContainer-0-2-7"
+  >
+    <button
+      class="reset-button btn-0-2-8 btnSubmit-0-2-9"
+      type="button"
+    >
+      Calcular
+    </button>
+    <button
+      class="reset-button btn-0-2-8 btnClear-0-2-10"
+      type="button"
+    >
+      Limpiar
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Form /> should match snapshot - male - error state 1`] = `
+<DocumentFragment>
+  <h1
+    class="title-0-2-1"
+  >
+    Calculadora de Grasa Corporal
+  </h1>
+  <p
+    class="description-0-2-2"
+  >
+    El método de la Marian de Estados Unidos (US Navy Method) ofrece una manera sencilla de calcular un aproximado del porcentaje de tejido adiposo en el cuerpo de una persona.
+  </p>
+  <p
+    class="description-0-2-2"
+  >
+    Los valores requeridos por la fórmula son los siguientes:
+  </p>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <label
+      class="label-0-2-11"
+    >
+      Género
+    </label>
+    <div
+      class="groupRadio-0-2-4"
+    >
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_man"
+          name="isMale"
+          type="radio"
+          value="true"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_man"
+        >
+          Hombre
+        </label>
+      </div>
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_woman"
+          name="isMale"
+          type="radio"
+          value="false"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_woman"
+        >
+          Mujer
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_height"
+      >
+        Altura (cm)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_height"
+        name="height"
+        placeholder="Ingresa tu altura"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_weight"
+      >
+        Peso (kg)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_weight"
+        name="weight"
+        placeholder="Ingresa tu peso"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_waist"
+      >
+        Cintura (cm)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_waist"
+        name="waist"
+        placeholder="Ingresa la medida de tu cintura"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_hip"
+      >
+        Cadera (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_hip"
+        name="hip"
+        placeholder="Ingresa la medida de tu cadera"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_neck"
+      >
+        Cuello (cm)
+      </label>
+      <input
+        class="input-0-2-13 inputError-0-2-14"
+        id="input_neck"
+        name="neck"
+        placeholder="Ingresa la medida de tu cuello"
+        type="text"
+        value=""
+      />
+      <div
+        class="errorContainer-0-2-15"
+      >
+        <p
+          class="error-0-2-16"
+        >
+          error
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="actionsContainer-0-2-7"
+  >
+    <button
+      class="reset-button btn-0-2-8 btnSubmit-0-2-9"
+      type="button"
+    >
+      Calcular
+    </button>
+    <button
+      class="reset-button btn-0-2-8 btnClear-0-2-10"
+      type="button"
+    >
+      Limpiar
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Form /> should match snapshot - male 1`] = `
+<DocumentFragment>
+  <h1
+    class="title-0-2-1"
+  >
+    Calculadora de Grasa Corporal
+  </h1>
+  <p
+    class="description-0-2-2"
+  >
+    El método de la Marian de Estados Unidos (US Navy Method) ofrece una manera sencilla de calcular un aproximado del porcentaje de tejido adiposo en el cuerpo de una persona.
+  </p>
+  <p
+    class="description-0-2-2"
+  >
+    Los valores requeridos por la fórmula son los siguientes:
+  </p>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <label
+      class="label-0-2-11"
+    >
+      Género
+    </label>
+    <div
+      class="groupRadio-0-2-4"
+    >
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_man"
+          name="isMale"
+          type="radio"
+          value="true"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_man"
+        >
+          Hombre
+        </label>
+      </div>
+      <div
+        class="radioContainer-0-2-6"
+      >
+        <input
+          id="input_woman"
+          name="isMale"
+          type="radio"
+          value="false"
+        />
+        <label
+          class="label-0-2-11"
+          for="input_woman"
+        >
+          Mujer
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_height"
+      >
+        Altura (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_height"
+        name="height"
+        placeholder="Ingresa tu altura"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_weight"
+      >
+        Peso (kg)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_weight"
+        name="weight"
+        placeholder="Ingresa tu peso"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_waist"
+      >
+        Cintura (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_waist"
+        name="waist"
+        placeholder="Ingresa la medida de tu cintura"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="inputContainer-0-2-3"
+  >
+    <div
+      class="container-0-2-12"
+    >
+      <label
+        class="label-0-2-11"
+        for="input_neck"
+      >
+        Cuello (cm)
+      </label>
+      <input
+        class="input-0-2-13"
+        id="input_neck"
+        name="neck"
+        placeholder="Ingresa la medida de tu cuello"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="actionsContainer-0-2-7"
+  >
+    <button
+      class="reset-button btn-0-2-8 btnSubmit-0-2-9"
+      type="button"
+    >
+      Calcular
+    </button>
+    <button
+      class="reset-button btn-0-2-8 btnClear-0-2-10"
+      type="button"
+    >
+      Limpiar
+    </button>
+  </div>
+</DocumentFragment>
+`;
